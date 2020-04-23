@@ -23,6 +23,8 @@
 		3538FFF52450B70200B1AC2E /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3538FFED2450B70200B1AC2E /* whackMask@2x.png */; };
 		3538FFF62450B70200B1AC2E /* whackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3538FFEE2450B70200B1AC2E /* whackBackground@2x.png */; };
 		35C902832450BF8200932E56 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C902822450BF8200932E56 /* WhackSlot.swift */; };
+		35E9B53A2451D67A006361E6 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35E9B5392451D67A006361E6 /* SmokeParticle.sks */; };
+		35E9B53D24520C0A006361E6 /* gameOver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35E9B53C24520C0A006361E6 /* gameOver.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		3538FFED2450B70200B1AC2E /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
 		3538FFEE2450B70200B1AC2E /* whackBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackBackground@2x.png"; sourceTree = "<group>"; };
 		35C902822450BF8200932E56 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = SOURCE_ROOT; };
+		35E9B5392451D67A006361E6 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		35E9B53C24520C0A006361E6 /* gameOver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameOver.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				3538FFCE2450B5D300B1AC2E /* AppDelegate.swift */,
 				3538FFD02450B5D300B1AC2E /* GameScene.sks */,
 				3538FFD42450B5D300B1AC2E /* GameScene.swift */,
+				35E9B5392451D67A006361E6 /* SmokeParticle.sks */,
 				3538FFD62450B5D300B1AC2E /* GameViewController.swift */,
 				3538FFD82450B5D300B1AC2E /* Main.storyboard */,
 				3538FFDB2450B5D400B1AC2E /* Assets.xcassets */,
@@ -93,6 +98,7 @@
 		3538FFE62450B70200B1AC2E /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				35E9B53C24520C0A006361E6 /* gameOver.m4a */,
 				3538FFE72450B70200B1AC2E /* whackBad.caf */,
 				3538FFE82450B70200B1AC2E /* whack.caf */,
 				3538FFE92450B70200B1AC2E /* gameOver@2x.png */,
@@ -163,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E9B53A2451D67A006361E6 /* SmokeParticle.sks in Resources */,
 				3538FFF52450B70200B1AC2E /* whackMask@2x.png in Resources */,
 				3538FFEF2450B70200B1AC2E /* whackBad.caf in Resources */,
 				3538FFDA2450B5D300B1AC2E /* Main.storyboard in Resources */,
@@ -174,6 +181,7 @@
 				3538FFF22450B70200B1AC2E /* penguinEvil@2x.png in Resources */,
 				3538FFF12450B70200B1AC2E /* gameOver@2x.png in Resources */,
 				3538FFF42450B70200B1AC2E /* penguinGood@2x.png in Resources */,
+				35E9B53D24520C0A006361E6 /* gameOver.m4a in Resources */,
 				3538FFF02450B70200B1AC2E /* whack.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
