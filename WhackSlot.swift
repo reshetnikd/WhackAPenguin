@@ -47,7 +47,7 @@ class WhackSlot: SKNode {
             let addSmoke = SKAction.run { [unowned self] in self.addChild(smoke) }
             let delay = SKAction.wait(forDuration: 3.0)
             let removeSmoke = SKAction.run { smoke.removeFromParent() }
-            SKAction.sequence([addSmoke, delay, removeSmoke])
+            run(SKAction.sequence([addSmoke, delay, removeSmoke]))
         }
         
         let delay = SKAction.wait(forDuration: 0.25)
